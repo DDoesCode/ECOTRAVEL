@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('background-image.jpg') center/cover no-repeat; /* Replace with the actual image URL */
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.google-button {
+    background: #34A853;
+    color: #fff;
+}
+
+.facebook-button {
+    background: #3b5998;
+    color: #fff;
+}
+
+.email-button,
+.phone-button {
+    background: #fff;
+    color: #333;
+    border: 2px solid #11902D;
+}
+
+.email-button img,
+.phone-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.skip-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
